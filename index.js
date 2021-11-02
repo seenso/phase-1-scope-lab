@@ -1,6 +1,14 @@
-// Write your solution in this file!
 var customerName = 'bob';
 
-let upperCaseCustomerName = (customerName) => {
-  return customerName.toUpperCase();
+var upperCaseCustomerName = (customerName) => {
+  customerName = customerName.toUpperCase();
 };
+
+var bestCustomer;
+var setBestCustomer = () => {
+  bestCustomer = `not ${customerName}`;
+};
+
+var overwriteBestCustomer = () => {};
+
+const leastFavoriteCustomer = () => {};
