@@ -5,11 +5,11 @@ var upperCaseCustomerName = () => {
 
 var bestCustomer;
 var setBestCustomer = () => {
-  // bestCustomer = `not ${customerName}`;
+  bestCustomer = `not bob`;
 };
 
 var overwriteBestCustomer = () => {
-  bestCustomer = 'Henry Cavill';
+  bestCustomer = 'maybe bob';
 };
 
 const leastFavoriteCustomer = 'Pan Cake';
