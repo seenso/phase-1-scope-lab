@@ -5,9 +5,14 @@ var upperCaseCustomerName = () => {
 
 var bestCustomer;
 var setBestCustomer = () => {
-  bestCustomer = `not ${customerName}`;
+  // bestCustomer = `not ${customerName}`;
 };
 
-var overwriteBestCustomer = () => {};
+var overwriteBestCustomer = () => {
+  bestCustomer = 'Henry Cavill';
+};
 
-const leastFavoriteCustomer = () => {};
+const leastFavoriteCustomer = 'Pan Cake';
+var changeLeastFavoriteCustomer = () => {
+  leastFavoriteCustomer = 'Maple Syrup';
+};
